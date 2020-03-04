@@ -138,6 +138,23 @@
                                             <outlet property="usernameLabel" destination="ggh-Jh-H83" id="emb-hO-EQE"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="qaA-KY-Mdg">
+                                        <rect key="frame" x="0.0" y="491" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qaA-KY-Mdg" id="dd2-IT-Jce">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User some comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWC-to-8ny">
+                                                    <rect key="frame" x="15" y="11" width="159" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
@@ -145,6 +162,7 @@
                         <viewLayoutGuide key="safeArea" id="bwX-EE-9QZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="7m8-WB-16D">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="kjG-dL-Dwl"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="hDd-oF-4Gy">
                             <connections>
                                 <segue destination="01b-4k-BUK" kind="presentation" id="ASI-hL-i5Z"/>
